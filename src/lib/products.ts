@@ -5,69 +5,69 @@ export const products: Product[] = [
   // Supplements
   {
     id: 1,
-    name: "DBKM Protein Powder",
+    name: "DBKM Protéine en Poudre",
     price: 29.99,
-    image: "https://images.unsplash.com/photo-1593095945844-9537d27711fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1563822249366-3e67f3399389?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "supplement",
-    description: "Premium whey protein for maximum recovery and muscle growth. 25g protein per serving."
+    description: "Protéine whey premium pour une récupération maximale et la croissance musculaire. 25g de protéine par portion."
   },
   {
     id: 2,
-    name: "Pre-Workout Formula",
+    name: "Formule Pré-Entraînement",
     price: 34.99,
     image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     category: "supplement",
-    description: "Boost your energy and focus with our advanced pre-workout formula. Sugar-free and packed with BCAAs."
+    description: "Boostez votre énergie et votre concentration avec notre formule pré-entraînement avancée. Sans sucre et riche en BCAA."
   },
   {
     id: 3,
-    name: "BCAA Complex",
+    name: "Complexe BCAA",
     price: 24.99,
-    image: "https://images.unsplash.com/photo-1579722821273-0f6c1b5d28b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1536939459926-301728717817?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "supplement",
-    description: "Essential amino acids to prevent muscle breakdown and accelerate recovery between workouts."
+    description: "Acides aminés essentiels pour prévenir la dégradation musculaire et accélérer la récupération entre les entraînements."
   },
   {
     id: 4,
-    name: "Omega-3 Fish Oil",
+    name: "Oméga-3 Huile de Poisson",
     price: 19.99,
-    image: "https://images.unsplash.com/photo-1584473457493-58e638f79f3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "supplement",
-    description: "High-quality fish oil capsules packed with EPA and DHA for heart and joint health."
+    description: "Capsules d'huile de poisson de haute qualité riches en EPA et DHA pour la santé cardiaque et articulaire."
   },
   
   // Clothing
   {
     id: 5,
-    name: "Performance T-Shirt",
+    name: "T-Shirt Performance",
     price: 24.99,
-    image: "https://images.unsplash.com/photo-1583744946564-b52d01e7f922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "clothing",
-    description: "Breathable and moisture-wicking performance t-shirt for maximum comfort during workouts."
+    description: "T-shirt respirant et évacuant l'humidité pour un confort maximal pendant les entraînements."
   },
   {
     id: 6,
-    name: "Training Shorts",
+    name: "Short d'Entraînement",
     price: 29.99,
-    image: "https://images.unsplash.com/photo-1595950653291-6d0c837a3371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1517940310602-26535839fe84?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "clothing",
-    description: "Lightweight and flexible training shorts with perfect fit for any workout."
+    description: "Short d'entraînement léger et flexible avec un ajustement parfait pour tout type d'entraînement."
   },
   {
     id: 7,
-    name: "Compression Leggings",
+    name: "Leggings de Compression",
     price: 39.99,
-    image: "https://images.unsplash.com/photo-1547154457-00d10e559d65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "clothing",
-    description: "Advanced compression technology for improved circulation and muscle support."
+    description: "Technologie de compression avancée pour une meilleure circulation et un soutien musculaire."
   },
   {
     id: 8,
-    name: "Premium Hoodie",
+    name: "Sweat à Capuche Premium",
     price: 49.99,
-    image: "https://images.unsplash.com/photo-1593183230458-a9e475c4dfec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "clothing",
-    description: "Comfortable and stylish premium hoodie for pre and post-workout comfort."
+    description: "Sweat à capuche confortable et élégant pour le confort avant et après l'entraînement."
   }
 ];
 
