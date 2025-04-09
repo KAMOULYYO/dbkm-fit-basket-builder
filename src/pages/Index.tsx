@@ -1,13 +1,38 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import { CartProvider } from '@/context/CartContext';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import AboutSection from '@/components/AboutSection';
+import ProductSection from '@/components/ProductSection';
+import Cart from '@/components/Cart';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <CartProvider>
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-grow">
+          <Hero />
+          <AboutSection />
+          <ProductSection 
+            id="supplements"
+            category="supplement"
+            title="Premium Supplements"
+            description="Science-backed formulations to help you achieve peak performance, faster recovery, and better results."
+          />
+          <ProductSection 
+            id="clothing"
+            category="clothing"
+            title="Performance Apparel"
+            description="Engineered for comfort, durability, and performance. Elevate your workout with our premium fitness clothing."
+          />
+        </main>
+        <Cart />
+        <Footer />
       </div>
-    </div>
+    </CartProvider>
   );
 };
 
