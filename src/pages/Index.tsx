@@ -19,14 +19,14 @@ const Index = () => {
           <ProductSection 
             id="supplements"
             category="supplement"
-            title="Premium Supplements"
-            description="Science-backed formulations to help you achieve peak performance, faster recovery, and better results."
+            title="Compléments Nutritionnels Premium"
+            description="Formulations scientifiquement prouvées pour vous aider à atteindre des performances optimales, une récupération plus rapide et de meilleurs résultats."
           />
           <ProductSection 
             id="clothing"
             category="clothing"
-            title="Performance Apparel"
-            description="Engineered for comfort, durability, and performance. Elevate your workout with our premium fitness clothing."
+            title="Vêtements de Performance"
+            description="Conçus pour le confort, la durabilité et la performance. Améliorez votre entraînement avec nos vêtements de fitness haut de gamme."
           />
         </main>
         <Cart />

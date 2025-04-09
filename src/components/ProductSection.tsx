@@ -2,6 +2,7 @@
 import React from 'react';
 import ProductCard from './ProductCard';
 import { getProductsByCategory } from '@/lib/products';
+import { Skeleton } from '@/components/ui/skeleton';
 
 type ProductSectionProps = {
   category: 'supplement' | 'clothing';
