@@ -15,14 +15,20 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     setImageError(true);
   };
   
-  // Image de secours si l'image principale échoue
-  const fallbackImage = "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80";
+  // Images de secours selon la catégorie
+  const getFallbackImage = () => {
+    if (product.category === 'supplement') {
+      return "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80";
+    } else {
+      return "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80";
+    }
+  };
   
   return (
     <div className="product-card group">
       <div className="relative overflow-hidden">
         <img 
-          src={imageError ? fallbackImage : product.image} 
+          src={imageError ? getFallbackImage() : product.image} 
           alt={product.name}
           className="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-300"
           onError={handleImageError}
